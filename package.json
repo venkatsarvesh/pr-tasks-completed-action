@@ -1,0 +1,29 @@
+{
+  "name": "pr-tasks-completed-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build lib/index.js",
+    "all": "npm run build && npm run pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatsarvesh/pr-tasks-completed-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatsarvesh/pr-tasks-completed-action/issues"
+  },
+  "homepage": "https://github.com/venkatsarvesh/pr-tasks-completed-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
