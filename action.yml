@@ -1,0 +1,9 @@
+name: "PR TaskList Completed Checker"
+description: "An action that checks if all the tasks(if any) in the PR body are completed"
+inputs:
+  repo-token:
+    description: "The GITHUB_TOKEN secret"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
