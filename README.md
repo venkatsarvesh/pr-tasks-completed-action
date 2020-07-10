@@ -45,3 +45,5 @@ You can check a list of uncompleted tasks at the Actions page on clicking Detail
 ![List of pending tasks](images/pending_tasks.png)
 
 
+## :memo: Licence
+MIT
